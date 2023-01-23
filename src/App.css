@@ -1,0 +1,51 @@
+html{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ 
+}
+
+.App{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  box-shadow:  0 0 0.5em #0003;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p{
+  align-self: center;
+  
+}
+
+button{
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  width: 2em;
+  
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  aspect-ratio: 1 / 1;
+  color: white;
+}
+
+i{
+  align-self: start;
+  font-size: 2rem
+}
+
+
